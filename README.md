@@ -10,7 +10,8 @@ npm i tomas --save
 ## How to use?
 
 ```js
-var tomas   = require('tomas'),
+var fs      = require('fs'),
+    tomas   = require('tomas'),
     path    = 'coderaiser/node-tomas/package.json';
 
 tomas.check(path, function(is) {
@@ -30,7 +31,7 @@ tomas.check(path, function(is) {
                     if (error)
                         console.error(data);
                     else
-                        console.log('tomas saved');
+                        console.log('tomas written');
                 });
         });
 });
