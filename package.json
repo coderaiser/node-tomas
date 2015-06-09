@@ -5,7 +5,7 @@
   "main": "lib/tomas.js",
   "dependencies": {
     "checkup": "~1.0.2",
-    "execon": "~1.1.0",
+    "execon": "~1.2.0",
     "ischanged": "~1.0.7",
     "mkdirp": "~0.5.0"
   },
