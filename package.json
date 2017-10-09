@@ -27,6 +27,6 @@
     "url": "https://github.com/coderaiser/node-tomas/issues"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">=4"
   }
 }
