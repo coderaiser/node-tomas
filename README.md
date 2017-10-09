@@ -10,30 +10,30 @@ npm i tomas --save
 ## How to use?
 
 ```js
-var fs      = require('fs'),
-    tomas   = require('tomas'),
-    path    = './package.json',
-    log     = function(error, data, str) {
-         if (error)
-                console.error(error.message);
-            else
-                console.log(str, data);
-        
-        return error;
-    };
+const fs = require('fs'),
+const tomas = require('tomas'),
+const path = './package.json',
+const log = (error, data, str) => {
+     if (error)
+            console.error(error.message);
+        else
+            console.log(str, data);
 
-tomas.check(path, function(is) {
+    return error;
+};
+
+tomas.check(path, (is) => {
     if (is)
-        tomas.read(name, function(error, data) {
+        return tomas.read(name, (error, data) => {
            log(error, data, 'tomas read:\n');
         });
-    else
-        fs.readFile(name, 'utf8', function(error, data) {
-            if (!log(error))
-                tomas.write(name, data, function(error) {
-                    log(error, data, 'tomas written:\n');
-                });
-        });
+    
+    fs.readFile(name, 'utf8', (error, data) => {
+        if (!log(error))
+            tomas.write(name, data, (error) => {
+                log(error, data, 'tomas written:\n');
+            });
+    });
 });
 ```
 
