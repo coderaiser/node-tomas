@@ -43,11 +43,11 @@ MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/tomas.svg?style=flat
 [BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-tomas/master.svg?style=flat
-[DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/node-tomas.svg?style=flat
+[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/node-tomas.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPM_INFO_IMG]:             https://nodei.co/npm/tomas.png?stars
 [NPMURL]:                   http://npmjs.org/package/tomas
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
 [BuildStatusURL]:           http://travis-ci.org/coderaiser/node-tomas  "Build Status"
-[DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-tomas "Dependency Status"
+[DependencyStatusURL]:      https://david-dm.org/coderaiser/node-tomas "Dependency Status"
 
