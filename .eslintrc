@@ -4,13 +4,19 @@
         "node": true,
     },
     "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
+        "ecmaVersion": 2017,
     },
     "rules": {
         "indent": ["error", 4],
         "semi": "error",
+        "no-console": 0,
         "no-use-before-define": ["error", "nofunc"]
     },
-  "extends": ["eslint:recommended"]
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "node"
+    ]
 }
