@@ -1,6 +1,6 @@
 {
   "name": "tomas",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "save data to storage and read from it to speed up computing",
   "main": "lib/tomas.js",
   "dependencies": {
